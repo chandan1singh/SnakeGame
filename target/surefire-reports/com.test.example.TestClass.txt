@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.test.example.TestClass
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.982 s <<< FAILURE! -- in com.test.example.TestClass
+com.test.example.TestClass.GameTest -- Time elapsed: 0.092 s <<< ERROR!
+java.lang.NullPointerException
+	at java.desktop/javax.swing.ImageIcon.<init>(ImageIcon.java:217)
+	at snakegame.GamePanel.<init>(GamePanel.java:45)
+	at com.test.example.TestClass.<init>(TestClass.java:9)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+
